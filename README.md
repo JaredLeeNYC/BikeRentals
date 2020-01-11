@@ -1,2 +1,0 @@
-# BikeRentals
-Created with CodeSandbox

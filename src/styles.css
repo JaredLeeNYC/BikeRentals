@@ -1,0 +1,120 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.grid-content {
+  background: #d3dce6;
+}
+
+.clearfix input {
+  margin: 10px;
+  width: 100px;
+}
+
+.el-card {
+  margin-top: 20px;
+}
+.el-card__body {
+  text-align: center;
+}
+
+.el-card__body img {
+  margin-top: 10px;
+}
+
+.price {
+  margin-left: 30px;
+}
+
+.continue {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.total {
+  text-align: right;
+}
+
+.user {
+  margin: 35px auto;
+}
+
+.payment-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.payment {
+  margin-bottom: 35px;
+}
+
+.el-input {
+  width: 100%;
+}
+.el-input__inner {
+  margin-top: 5px;
+  width: 300px;
+}
+
+.checkout {
+  text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
+  .wrapper {
+    width: 97%;
+    max-width: 767px;
+  }
+
+  .el-input {
+    width: 65%;
+  }
+  .el-input__inner {
+    width: 300px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) {
+  .wrapper {
+    width: 97%;
+    max-width: 1200px;
+    float: none;
+  }
+
+  .el-input {
+    width: 85%;
+  }
+  .el-input__inner {
+    width: 300px;
+  }
+}
